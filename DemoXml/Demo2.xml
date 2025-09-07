@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV>
+	<SV>
+		<HoTen>Nguyen Viet Duc</HoTen>
+		<NgaySinh>5/3/1998</NgaySinh>
+		<Lop>KTPM5-K9</Lop>
+		<MonHoc tenMon="Toan">
+			<Lan1>5</Lan1>
+			<Lan2>6</Lan2>
+			<CaNam>8</CaNam>
+		</MonHoc>
+		<MonHoc tenMon="Van">
+			<Lan1>7</Lan1>
+			<Lan2>8</Lan2>
+			<CaNam>4</CaNam>
+		</MonHoc>
+		<MonHoc tenMon="NgoaiNgu">
+			<Lan1>3</Lan1>
+			<Lan2>5</Lan2>
+			<CaNam>5</CaNam>
+		</MonHoc>
+		<MonHoc tenMon="Su">
+			<Lan1>2</Lan1>
+			<Lan2>5</Lan2>
+			<CaNam>3</CaNam>
+		</MonHoc>
+		<MonHoc tenMon="Sinh">
+			<Lan1>8</Lan1>
+			<Lan2>8</Lan2>
+			<CaNam>4</CaNam>
+		</MonHoc>
+
+		<HocLuc>TB</HocLuc>
+		<HanhKiem>Kha</HanhKiem>
+	</SV>
+	
+</DSSV>

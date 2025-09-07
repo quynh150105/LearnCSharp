@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV>
+	<sv>
+		<HoDem>Le Nhu</HoDem>
+		<Ten>Quynh</Ten>
+		<TBKT>6</TBKT>
+		<DiemThi>4</DiemThi>
+		<KetQua>
+			<BangSo>2</BangSo>
+			<BangChu>bon</BangChu>
+		</KetQua>
+	</sv>
+	<sv>
+		<HoDem>Tran Van</HoDem>
+		<Ten>Binh</Ten>
+		<TBKT>6</TBKT>
+		<DiemThi>5</DiemThi>
+		<KetQua>
+			<BangSo>3</BangSo>
+			<BangChu>Ba</BangChu>
+		</KetQua>
+	</sv>
+	<sv>
+		<HoDem>Le Dinh</HoDem>
+		<Ten>Bao</Ten>
+		<TBKT>7</TBKT>
+		<DiemThi>6</DiemThi>
+		<KetQua>
+			<BangSo>5</BangSo>
+			<BangChu>nam</BangChu>
+		</KetQua>
+	</sv>
+	
+</DSSV>
