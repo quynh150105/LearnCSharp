@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/XMLSchema1.xsd">
+	<SinhVien masv="Ancd123678">
+		<HoTen>Nguyen Van A</HoTen>
+		<NgaySinh>1996-01-01</NgaySinh>
+		<GioiTinh>Nam</GioiTinh>
+		<Que>Ha Noi</Que>
+		<TrinhDo>Cao dang</TrinhDo>
+		<HSDiem>2.56</HSDiem>
+	</SinhVien>
+</QLSV>
