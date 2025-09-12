@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2"
+    targetNamespace="http://tempuri.org/Bai2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!-- ma hang -->
+	<xs:simpleType name="mhType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="6"></xs:maxLength>
+			<xs:minLength value="2"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- Ten hang -->
+	<xs:simpleType name="thType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"></xs:maxLength>
+			<xs:minLength value="1"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- Don Vi Tinh-->
+	<xs:simpleType name="dvtType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Goi"></xs:enumeration>
+			<xs:enumeration value="Hop"></xs:enumeration>
+			<xs:enumeration value="Chiec"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- so luong-->
+	<xs:simpleType name="slType">
+		<xs:restriction base="xs:int">
+			<xs:minExclusive value="0"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- don gia -->
+	<xs:simpleType name="dgType">
+		<xs:restriction base="xs:int">
+			<xs:minExclusive value="0"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- Hang Type-->
+	<xs:complexType name="hangType">
+		<xs:sequence>
+			<xs:element name="TenHang" type="thType"></xs:element>
+			<xs:element name="SoLuong" type="slType"></xs:element>
+			<xs:element name="DonViTinh" type="dvtType"></xs:element>
+			<xs:element name="DonGia" type="dgType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaHang" type="mhType" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<!-- Loai Hang-->
+	<xs:complexType name="LoaiHangType">
+		<xs:sequence>
+			<xs:element name="Hang" type="hangType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaLoai" type="thType"></xs:attribute>
+		<xs:attribute name="TenLoai" type="thType"></xs:attribute>
+	</xs:complexType>
+	
+	<!-- Hoa Don Type -->
+	<xs:complexType name="HoaDonType">
+		<xs:sequence>
+			<xs:element name="MaHD" type="mhType"></xs:element>
+			<xs:element name="NgayBan" type="xs:date"></xs:element>
+			<xs:element name="LoaiHang" type="LoaiHangType" minOccurs="1" maxOccurs="10"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- DS Type-->
+	<xs:complexType name="DanhSachType">
+		<xs:sequence>
+			<xs:element name="HoaDon" type="HoaDonType" minOccurs="0" maxOccurs="4"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="DS" type="DanhSachType"></xs:element>
+	
+	
+</xs:schema>

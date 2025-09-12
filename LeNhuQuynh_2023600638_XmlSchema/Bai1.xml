@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/Bai1.xsd">
+
+	<SinhVien maSv="sinhVien01">
+		<HoTen>Nguyen Van A</HoTen>
+		<NgaySinh>1998-08-12</NgaySinh>
+		<GioiTinh>Nam</GioiTinh>
+		<QueQuan>Ha Noi</QueQuan>
+		<TrinhDo>Daihoc</TrinhDo>
+		<HeSoDiem>3.4</HeSoDiem>
+	</SinhVien>
+
+	<SinhVien maSv="sinhVien02">
+		<HoTen>Nguyen Van B</HoTen>
+		<NgaySinh>1998-02-02</NgaySinh>
+		<GioiTinh>Nu</GioiTinh>
+		<QueQuan>Hai Phong</QueQuan>
+		<TrinhDo>Caodang</TrinhDo>
+		<HeSoDiem>3.5</HeSoDiem>
+		
+	</SinhVien>
+
+
+
+
+</QLSV>
