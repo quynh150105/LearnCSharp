@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<class
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation='BaiTh1.xsd'>
+	<student>
+		<sid>S098</sid>
+		<name>Van Anh</name>
+		<dob>2005-01-01</dob>
+		<mark>8</mark>
+	</student>
+	<student>
+		<sid>S123</sid>
+		<name>Van Tuan</name>
+		<dob>2004-09-09</dob>
+		<mark>8</mark>
+	</student>
+	<student>
+		<sid>S345</sid>
+		<name>Tuan Anh</name>
+		<dob>1999-11-28</dob>
+		<mark>2</mark>
+	</student>
+	
+	
+</class>
