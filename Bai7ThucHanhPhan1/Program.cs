@@ -1,5 +1,4 @@
-﻿using System.Net.Sockets;
-using System.Xml;
+﻿using System.Xml;
 
 class Program
 {
@@ -8,6 +7,8 @@ class Program
         XmlDocument doc = new XmlDocument();
         XmlElement root = doc.CreateElement("thuvien");
         XmlElement cuonsach = doc.CreateElement("cuonsach");
+        cuonsach.SetAttribute("masach", "j01");
+        cuonsach.SetAttribute("theloai", "cong nghe thong tin");
         XmlElement tensach = doc.CreateElement("tensach");
         XmlText ttensach = doc.CreateTextNode("lap trinh java");
         XmlElement sotrang = doc.CreateElement("sotrang");
