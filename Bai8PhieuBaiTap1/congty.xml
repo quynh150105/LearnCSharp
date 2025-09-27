@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<congty>
+	<nhanvien manv="n01">
+		<hoten>Nguyen Thi Anh</hoten>
+		<tuoi>30</tuoi>
+		<luong>1000</luong>
+		<diachi>
+			<xa>Minh Khai</xa>
+			<huyen>Bac Tu Liem</huyen>
+			<thanhpho>Ha Noi</thanhpho>
+		</diachi>
+		<dienthoai>0918273645</dienthoai>
+	</nhanvien>
+
+	<nhanvien manv="n02">
+		<hoten>Nguyen Van Tuan</hoten>
+		<tuoi>30</tuoi>
+		<luong>1200</luong>
+		<diachi>
+			<xa>Liem Mac</xa>
+			<huyen>Bac Tu Liem</huyen>
+			<thanhpho>Ha Noi</thanhpho>
+		</diachi>
+		<dienthoai>09817652418</dienthoai>
+	</nhanvien>
+</congty>
