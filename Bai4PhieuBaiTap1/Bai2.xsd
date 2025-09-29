@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2"
+    targetNamespace="http://tempuri.org/Bai2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z ]{3,}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="idType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[\w]{6,}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="phoneType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}-\d{3}-\d{4}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="salaryType">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1000"></xs:minInclusive>
+			<xs:maxInclusive value="2000"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="addType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Ha noi"></xs:enumeration>
+			<xs:enumeration value="Hai phong"></xs:enumeration>
+			<xs:enumeration value="Quang ninh"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="genderType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="male"></xs:enumeration>
+			<xs:enumeration value="female"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+
+	<xs:complexType name="nvType">
+		<xs:sequence>
+			<xs:element name="name" type="nameType"></xs:element>
+			<xs:element name="userid" type="idType"></xs:element>
+			<xs:element name="phone" type="phoneType"></xs:element>
+			<xs:element name="salary" type="salaryType"></xs:element>
+			<xs:element name="address" type="addType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="NhanVienType">
+		<xs:sequence>
+			<xs:element name="employee" type="nvType" minOccurs="10" maxOccurs="50"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="idType"></xs:attribute>
+		<xs:attribute name="gender" type="genderType"></xs:attribute>
+	</xs:complexType>
+
+	<xs:element name="company" type="NhanVienType"></xs:element>
+	
+	
+</xs:schema>

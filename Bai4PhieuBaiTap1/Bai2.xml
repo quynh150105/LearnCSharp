@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<company xmlns="http://tempuri.org/Bai2.xsd">
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+	<employee>
+		<name>Quynh</name>
+		<userid>A123asd</userid>
+		<phone>123-123-1234</phone>
+		<salary>1200</salary>
+		<address>Ha noi</address>
+	</employee>
+	
+</company>
