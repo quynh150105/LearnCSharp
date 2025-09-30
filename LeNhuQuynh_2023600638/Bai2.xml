@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DS xmlns="http://tempuri.org/Bai2.xsd">
+	<!-- Hoa don 1 -->
+	<HoaDon>
+		<maHD>HD01</maHD>
+		<NgayBan>2025-09-30</NgayBan>
+		<LoaiHang MaLoai="A" Tenloai="Dien tu">
+			<Hang MaHang="H1">
+				<TenHang>Ti Vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H2">
+				<TenHang>Tu Lanh</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H3">
+				<TenHang>May giat</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+		</LoaiHang>
+		<LoaiHang MaLoai="B" Tenloai="Dien tu">
+			<Hang MaHang="H1">
+				<TenHang>Ti Vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H2">
+				<TenHang>Tu Lanh</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H3">
+				<TenHang>May giat</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+	<!--Hoa don 2 -->
+	<HoaDon>
+		<maHD>HD02</maHD>
+		<NgayBan>2025-09-29</NgayBan>
+		<LoaiHang MaLoai="A" Tenloai="Dien tu">
+			<Hang MaHang="H1">
+				<TenHang>Ti Vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H2">
+				<TenHang>Tu Lanh</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H3">
+				<TenHang>May giat</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+		</LoaiHang>
+		<LoaiHang MaLoai="B" Tenloai="Dien tu">
+			<Hang MaHang="H1">
+				<TenHang>Ti Vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H2">
+				<TenHang>Tu Lanh</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+			<Hang MaHang="H3">
+				<TenHang>May giat</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>chiec</DonViTinh>
+				<DonGia>6000000</DonGia>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+	
+</DS>

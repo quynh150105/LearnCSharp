@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<congty xmlns="http://tempuri.org/Bai1.xsd">
+	<donvi>
+		<tendv>phong to chuc</tendv>
+		<sodienthoai>0987654432</sodienthoai>
+		<nhanvien>
+			<manv>tc01</manv>
+			<hoten>Le Nhu Quynh</hoten>
+			<ngaysinh>2005-01-15</ngaysinh>
+			<gioitinh>nam</gioitinh>
+			<hsluong>8.7</hsluong>
+		</nhanvien>
+	</donvi>
+</congty>
