@@ -50,6 +50,7 @@
             btnClose = new Button();
             btnClear = new Button();
             btnThem = new Button();
+            btnDelete = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -213,7 +214,7 @@
             // 
             // btnClose
             // 
-            btnClose.Location = new Point(820, 335);
+            btnClose.Location = new Point(820, 333);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(94, 29);
             btnClose.TabIndex = 19;
@@ -223,7 +224,7 @@
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(820, 169);
+            btnClear.Location = new Point(820, 162);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(94, 29);
             btnClear.TabIndex = 20;
@@ -233,7 +234,7 @@
             // 
             // btnThem
             // 
-            btnThem.Location = new Point(820, 249);
+            btnThem.Location = new Point(820, 219);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(94, 29);
             btnThem.TabIndex = 21;
@@ -241,11 +242,22 @@
             btnThem.UseVisualStyleBackColor = true;
             btnThem.Click += btnThem_Click;
             // 
+            // btnDelete
+            // 
+            btnDelete.Location = new Point(820, 276);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(94, 29);
+            btnDelete.TabIndex = 22;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1052, 743);
+            Controls.Add(btnDelete);
             Controls.Add(btnThem);
             Controls.Add(btnClear);
             Controls.Add(btnClose);
@@ -301,5 +313,6 @@
         private Button btnClose;
         private Button btnClear;
         private Button btnThem;
+        private Button btnDelete;
     }
 }

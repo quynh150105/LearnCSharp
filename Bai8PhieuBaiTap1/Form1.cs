@@ -75,5 +75,23 @@ namespace Bai8PhieuBaiTap1
         {
             displayData();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult d = MessageBox.Show("xac nhan xoa?", "Thong bao", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+            if (d == DialogResult.Yes)
+            {
+                bool check = data.deleteNhanVien(txtMaNv.Text);
+                if (!check) {
+                    MessageBox.Show("Khong xoa duoc");
+                }
+                else
+                {
+                    MessageBox.Show("Xoa Thanh Cong");
+                }
+                displayData();
+                ClearTextBox();
+            }
+        }
     }
 }

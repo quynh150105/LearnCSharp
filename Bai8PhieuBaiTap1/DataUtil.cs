@@ -79,5 +79,18 @@ namespace Bai8PhieuBaiTap1
             doc.Save(fileName);
             return true;
         }
+
+        public bool deleteNhanVien(string id)
+        {
+            XmlNode node = root.SelectSingleNode("nhanvien[@manv='" + id +"']");
+            if(node != null)
+            {
+                root.RemoveChild(node);
+                doc.Save(fileName);
+                return true;
+            }
+            return false;
+        }
+
     }
 }
