@@ -76,5 +76,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bai1.xml" />
+    <Content Include="Bai1.xslt" />
+    <Content Include="Bai1Cach2.xslt" />
+    <Content Include="Bai2.xml" />
+    <Content Include="Bai2.xslt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
