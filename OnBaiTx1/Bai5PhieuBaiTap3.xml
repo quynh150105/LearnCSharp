@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Bai5PhieuBaiTap3.xslt"?>
+<LopHoc xmlns="http://tempuri.org/Bai5PhieuBaiTap3.xsd">
+	<MonHoc>
+		<MaMh>CSDL</MaMh>
+		<TenMh>Co so du lieu</TenMh>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc>
+		<MaMh>MCB</MaMh>
+		<TenMh>Mang can ban</TenMh>
+		<SoGio>30</SoGio>
+	</MonHoc>
+	<MonHoc>
+		<MaMh>THDC</MaMh>
+		<TenMh>Tin hoc dai cuong</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc>
+		<MaMh>THVP</MaMh>
+		<TenMh>Tin hoc van phong</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	<MonHoc>
+		<MaMh>XLA</MaMh>
+		<TenMh>xu ly anh</TenMh>
+		<SoGio>45</SoGio>
+	</MonHoc>
+	
+</LopHoc>

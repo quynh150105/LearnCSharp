@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai5PhieuBaiTap3"
+    targetNamespace="http://tempuri.org/Bai5PhieuBaiTap3.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai5PhieuBaiTap3.xsd"
+    xmlns:mstns="http://tempuri.org/Bai5PhieuBaiTap3.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="sogioType">
+		<xs:restriction base="xs:int">
+			<xs:minExclusive value="4"></xs:minExclusive>
+			<xs:maxExclusive value="48"></xs:maxExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="monHocType">
+		<xs:sequence>
+			<xs:element name="MaMh" type="xs:string"></xs:element>
+			<xs:element name="TenMh" type="xs:string"></xs:element>
+			<xs:element name="SoGio" type="sogioType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="lopType">
+		<xs:sequence>
+			<xs:element name="MonHoc" type="monHocType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="LopHoc" type="lopType"></xs:element>
+	
+	
+</xs:schema>
