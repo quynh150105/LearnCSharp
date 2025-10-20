@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Bai5PhieuBaiTap1.xslt"?>
+<Lop xmlns="http://tempuri.org/Bai5PhieuBaiTap1.xsd" >
+	<SinhVien MaSv="sv01">
+		<TenSv>Pham Tuan Cuong</TenSv>
+		<GioiTinh>Nam</GioiTinh>
+		<ngaysinh>1993-03-03</ngaysinh>
+		<MaLop>CNTT01</MaLop>		
+	</SinhVien>
+	<SinhVien MaSv="sv02">
+		<TenSv>Hung Chi Tam</TenSv>
+		<GioiTinh>Nam</GioiTinh>
+		<ngaysinh>1993-03-03</ngaysinh>
+		<MaLop>CNTT01</MaLop>
+	</SinhVien>
+	<SinhVien MaSv="sv03">
+		<TenSv>Vuong Chi Dung</TenSv>
+		<GioiTinh>Nam</GioiTinh>
+		<ngaysinh>1993-03-03</ngaysinh>
+		<MaLop>CNTT01</MaLop>
+	</SinhVien>
+	<SinhVien MaSv="sv04">
+		<TenSv>Truong My Yen Nhi</TenSv>
+		<GioiTinh>Nu</GioiTinh>
+		<ngaysinh>1993-10-03</ngaysinh>
+		<MaLop>TCKT01</MaLop>
+	</SinhVien>
+	<SinhVien MaSv="sv05">
+		<TenSv>Ho Vo Thanh Tung</TenSv>
+		<GioiTinh>Nam</GioiTinh>
+		<ngaysinh>1993-03-03</ngaysinh>
+		<MaLop>TCTK13</MaLop>
+	</SinhVien>
+</Lop>
