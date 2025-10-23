@@ -66,6 +66,12 @@
     <None Include="Bai5PhieuBaiTap1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Bai5PhieuBaiTap3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DanhSach.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,6 +88,12 @@
   <ItemGroup>
     <Content Include="Bai5PhieuBaiTap1.xml" />
     <Content Include="Bai5PhieuBaiTap1.xslt" />
+    <Content Include="Bai5PhieuBaiTap3.xml" />
+    <Content Include="Bai5PhieuBaiTap3.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DanhSach.xml" />
+    <Content Include="DanhSach.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

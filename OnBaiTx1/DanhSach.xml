@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="DanhSach.xslt"?>
+<DS xmlns="http://tempuri.org/DanhSach.xsd">
+	<congty  TenCT="Cong Ty duoc Ha Nam">
+		<donvi>
+			<madv>A011</madv>
+			<tendv>Phong to chuc</tendv>
+			<dienthoai>09876543211</dienthoai>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>	
+			</nhanvien>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+		</donvi>
+		<donvi>
+			<madv>A012</madv>
+			<tendv>Phong to chuc2</tendv>
+			<dienthoai>09876543211</dienthoai>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+		</donvi>
+	</congty>
+	<congty  TenCT="Cong Ty duoc Ha Nam">
+		<donvi>
+			<madv>A013</madv>
+			<tendv>Phong to chuc4</tendv>
+			<dienthoai>09876543211</dienthoai>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+		</donvi>
+		<donvi>
+			<madv>A014</madv>
+			<tendv>Phong to chuc5</tendv>
+			<dienthoai>09876543211</dienthoai>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+			<nhanvien>
+				<manv>tc01</manv>
+				<hoten>Le Thu Lan</hoten>
+				<ngaysinh>2005-01-01</ngaysinh>
+				<gioitinh>Nu</gioitinh>
+				<ngaycong>23</ngaycong>
+			</nhanvien>
+		</donvi>
+	</congty>
+</DS>

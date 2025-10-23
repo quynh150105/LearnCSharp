@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DanhSach"
+    targetNamespace="http://tempuri.org/DanhSach.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DanhSach.xsd"
+    xmlns:mstns="http://tempuri.org/DanhSach.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:complexType name="nhanvienType">
+		<xs:sequence>
+			<xs:element name="manv" type="xs:string"></xs:element>
+			<xs:element name="hoten" type="xs:string"></xs:element>
+			<xs:element name="ngaysinh" type="xs:date"></xs:element>
+			<xs:element name="gioitinh" type="xs:string"></xs:element>
+			<xs:element name="ngaycong" type="xs:int"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="donviType">
+		<xs:sequence>
+			<xs:element name="madv" type="xs:string"></xs:element>
+			<xs:element name="tendv" type="xs:string"></xs:element>
+			<xs:element name="dienthoai" type="xs:string"></xs:element>
+			<xs:element name="nhanvien" type="nhanvienType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="congtyType">
+		<xs:sequence>
+			<xs:element name="donvi" type="donviType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="TenCT" type="xs:string" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="DSType">
+		<xs:sequence>
+			<xs:element name="congty" type="congtyType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="DS" type="DSType"></xs:element>
+	
+</xs:schema>
