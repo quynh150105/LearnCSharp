@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CSDLTest">
+  <DataContextMoniker Name="/CSDLTestDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9f435704-ba17-4039-b7db-df620d282624" absoluteBounds="2.625, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CSDLTestDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="500befd1-2e80-4785-9878-b2eb6117484c" absoluteBounds="2.64, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
