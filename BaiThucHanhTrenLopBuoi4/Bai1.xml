@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv01">
+    <hoten>Le Nhu Quynh</hoten>
+    <diachi>Hoai Duc, Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv02">
+    <hoten>Trinh Thanh Quan</hoten>
+    <diachi>Nguyen Xa, Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv03">
+    <hoten>Nguyen Xuan Truong</hoten>
+    <diachi>Van Minh, Ha Noi</diachi>
+  </nhanvien>
+</ds>
