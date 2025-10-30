@@ -16,7 +16,7 @@ namespace BaiThucHanhTrenLopBuoi4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bai1Form());
+            Application.Run(new FormBai2());
         }
     }
 }

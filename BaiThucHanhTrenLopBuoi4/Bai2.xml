@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv01">
+    <hoten>Le Nhu Quynh</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Dai hoc</trinhdo>
+    <diachi>Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv02">
+    <hoten>Trinh Thanh Quan</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Dai hoc</trinhdo>
+    <diachi>Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv03">
+    <hoten>Nguyen Van A</hoten>
+    <gioitinh>Nam</gioitinh>
+    <trinhdo>Dai Hoc</trinhdo>
+    <diachi>ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv04">
+    <hoten>Nguyen Thi B</hoten>
+    <gioitinh>Nu</gioitinh>
+    <trinhdo>Dai Hoc</trinhdo>
+    <diachi>Hai Phong</diachi>
+  </nhanvien>
+</ds>

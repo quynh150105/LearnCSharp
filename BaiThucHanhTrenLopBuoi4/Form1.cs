@@ -143,13 +143,8 @@ namespace BaiThucHanhTrenLopBuoi4
             XmlNode findNhanVien = root.SelectSingleNode("/ds/nhanvien[@manv='" + txtManv.Text + "']");
 
             XmlNode manv = findNhanVien.SelectSingleNode("@manv");
-            //txtManv.Text = manv.InnerText;
-
             XmlNode hoten = findNhanVien.SelectSingleNode("hoten");
-            //txtHoten.Text = hoten.InnerText;
-
             XmlNode diachi = findNhanVien.SelectSingleNode("diachi");
-            //txtDiaChi.Text = diachi.InnerText;
 
             dataTable.Rows.Clear();
 
