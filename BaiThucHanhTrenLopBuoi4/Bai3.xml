@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv01">
+    <hoten>
+      <ho>Le Thi</ho>
+      <ten>Ha</ten>
+    </hoten>
+    <diachi>27 Hang Bai, Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv02">
+    <hoten>
+      <ho>Trinh Thanh</ho>
+      <ten>Quan</ten>
+    </hoten>
+    <diachi>27 Lai xa, Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv03">
+    <hoten>
+      <ho>Nguyen Van</ho>
+      <ten>Ha</ten>
+    </hoten>
+    <diachi>27 Hang Bai, Ha Noi</diachi>
+  </nhanvien>
+</ds>
