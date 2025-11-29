@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <nhanvien manv="nv01">
+    <hoten>
+      <ho>Nguyen Van</ho>
+      <ten>A</ten>
+    </hoten>
+    <gioitinh>Nam</gioitinh>
+    <diachi>Ba Vi, Ha Noi</diachi>
+  </nhanvien>
+  <nhanvien manv="nv03">
+    <hoten>
+      <ho>Nguyen Thi</ho>
+      <ten>C</ten>
+    </hoten>
+    <diachi>Hoai Duc, Ha Noi</diachi>
+    <gioitinh>Nu</gioitinh>
+  </nhanvien>
+  <nhanvien manv="nv04">
+    <hoten>
+      <ho>Nguyen Van</ho>
+      <ten>D</ten>
+    </hoten>
+    <diachi>Ba Vi, Ha Noi</diachi>
+    <gioitinh>Nam</gioitinh>
+  </nhanvien>
+</ds>
